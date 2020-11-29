@@ -1,1 +1,1 @@
-# react_app
+# React Landing Page
