@@ -11,14 +11,14 @@ import {
   NavBtn,
   NavBtnLink,
 } from "./styleSheet";
-const Navbar = () => {
+const Navbar = ({ toggle }) => {
   return (
     <>
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">Re-Bank</NavLogo>
 
-          <MobileIcon>
+          <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
