@@ -4,7 +4,7 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: "Premium Banking Solutions",
-  headline: "No Transactions charges",
+  headline: "No Transaction charges",
   description:
     "One solution to hundreds of banking problems in a single swipe away. No hidden charges on transactions.",
   buttonLabel: "Get Started",
@@ -12,6 +12,6 @@ export const homeObjOne = {
   primary: true,
   alt: "transaction",
   dark: true,
-  primary: true,
+
   darText: false,
 };
