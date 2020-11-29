@@ -8,6 +8,8 @@ import {
   NavLinks,
   NavMenu,
   MobileIcon,
+  NavBtn,
+  NavBtnLink,
 } from "./styleSheet";
 const Navbar = () => {
   return (
@@ -22,6 +24,22 @@ const Navbar = () => {
           <NavItem>
             <NavLinks to="about">About</NavLinks>
           </NavItem>
+
+          <NavItem>
+            <NavLinks to="discover">Discover</NavLinks>
+          </NavItem>
+
+          <NavItem>
+            <NavLinks to="services">Services</NavLinks>
+          </NavItem>
+
+          <NavItem>
+            <NavLinks to="signup">Sign Up</NavLinks>
+          </NavItem>
+
+          <NavBtn>
+            <NavBtnLink to="/sigin">Sign In</NavBtnLink>
+          </NavBtn>
         </NavMenu>
       </NavbarContainer>
     </Nav>
