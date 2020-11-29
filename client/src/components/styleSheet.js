@@ -39,7 +39,7 @@ export const NavLogo = styled(LinkR)`
   font-size: 1.5rem;
   display: flex;
   align-items: center;
-  margin-left: -100px;
+  margin-left: -10px;
   font-weight: bold;
   text-decoration: none;
 `;
@@ -55,6 +55,7 @@ export const MobileIcon = styled.div`
     transform: translate(-100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
+    color: #fff;
   }
 `;
 
@@ -65,7 +66,7 @@ export const NavMenu = styled.ul`
   text-align: center;
   margin-right: -22px;
 
-  @media sreen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     display: none;
   }
 `;
