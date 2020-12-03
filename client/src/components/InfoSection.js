@@ -29,6 +29,7 @@ const InfoSection = ({
   alt,
   headline,
   img,
+  primary,
 }) => {
   return (
     <>
@@ -43,7 +44,7 @@ const InfoSection = ({
                 <BtnWrap>
                   <Button
                     dark={dark}
-                    primary
+                    primary={primary}
                     to="home"
                     smooth={true}
                     duration={500}

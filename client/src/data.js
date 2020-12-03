@@ -67,7 +67,7 @@ export const homeObjFour = {
     "From shopping online to your local grocery stores, 10% cashback everytime.",
   buttonLabel: "Sign Up",
   imgStart: true,
-  primary: true,
+  primary: false,
   alt: "wallet",
   dark: false,
   img: img4,
