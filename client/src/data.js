@@ -1,6 +1,7 @@
 import img1 from "./images/svg-1.svg";
 import img2 from "./images/svg-2.svg";
 import img3 from "./images/svg-3.svg";
+import img4 from "./images/svg-4.svg";
 
 export const homeObjOne = {
   id: "about",
@@ -30,9 +31,9 @@ export const homeObjTwo = {
   description: "Unlimited transations with our app and much more.",
   buttonLabel: "Learn More",
   imgStart: true,
-  primary: true,
+  primary: false,
   alt: "wallet",
-  dark: true,
+  dark: false,
   img: img2,
   darkText: true,
 };
@@ -53,4 +54,22 @@ export const homeObjThree = {
   dark: true,
   img: img3,
   darkText: false,
+};
+
+export const homeObjFour = {
+  id: "discover",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Premium Banking Solutions",
+  headline: "Get Instant Cashback everytime when you shop with us",
+  description:
+    "From shopping online to your local grocery stores, 10% cashback everytime.",
+  buttonLabel: "Sign Up",
+  imgStart: true,
+  primary: true,
+  alt: "wallet",
+  dark: false,
+  img: img4,
+  darkText: true,
 };
