@@ -1,5 +1,5 @@
 import React from "react";
-import img1 from "../images/svg-1.svg";
+// import img1 from "../images/svg-1.svg";
 import {
   Column1,
   Column2,
@@ -28,6 +28,7 @@ const InfoSection = ({
   dark,
   alt,
   headline,
+  img,
 }) => {
   return (
     <>
@@ -55,7 +56,7 @@ const InfoSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={img1} alt={alt} />
+                <Img src={img} alt={alt} />
               </ImgWrap>
             </Column2>
           </InfoRow>

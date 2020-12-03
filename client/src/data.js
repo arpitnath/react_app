@@ -1,3 +1,7 @@
+import img1 from "./images/svg-1.svg";
+import img2 from "./images/svg-2.svg";
+import img3 from "./images/svg-3.svg";
+
 export const homeObjOne = {
   id: "about",
   lightBg: false,
@@ -12,6 +16,41 @@ export const homeObjOne = {
   primary: true,
   alt: "transaction",
   dark: true,
+  img: img1,
+  darkText: false,
+};
 
-  darText: false,
+export const homeObjTwo = {
+  id: "discover",
+  lightBg: true,
+  lightText: false,
+  lightTextDesc: false,
+  topLine: "Premium Banking Solutions",
+  headline: "You save $499 per year with us",
+  description: "Unlimited transations with our app and much more.",
+  buttonLabel: "Learn More",
+  imgStart: true,
+  primary: true,
+  alt: "wallet",
+  dark: true,
+  img: img2,
+  darkText: true,
+};
+
+export const homeObjThree = {
+  id: "about",
+  lightBg: false,
+  lightText: true,
+  lightTextDesc: true,
+  topLine: "Premium Banking Solutions",
+  headline: "Credit Card Bills are fun with us",
+  description:
+    "Pay your Credit Card Bills & get e-points and use them for your next shopping ",
+  buttonLabel: "Get Started",
+  imgStart: false,
+  primary: true,
+  alt: "transaction",
+  dark: true,
+  img: img3,
+  darkText: false,
 };
