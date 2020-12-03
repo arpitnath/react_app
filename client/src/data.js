@@ -9,9 +9,9 @@ export const homeObjOne = {
   lightText: true,
   lightTextDesc: true,
   topLine: "Premium Banking Solutions",
-  headline: "No Transaction charges",
+  headline: "Zero Transaction charges",
   description:
-    "One solution to hundreds of banking problems in a single swipe away. No hidden charges on transactions.",
+    "Tired of the hefty transaction fees? With us no more transaction fees.",
   buttonLabel: "Get Started",
   imgStart: false,
   primary: true,
