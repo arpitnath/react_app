@@ -1,8 +1,8 @@
 import React from "react";
-import icon1 from "../images/svg-1.svg";
-import icon2 from "../images/svg-2.svg";
-import icon3 from "../images/svg-3.svg";
-import icon4 from "../images/svg-1.svg";
+import icon1 from "../images/icon2.svg";
+import icon2 from "../images/icon1.svg";
+import icon3 from "../images/icon3.svg";
+import icon4 from "../images/icon4.svg";
 import {
   ServicesContainer,
   ServicesWrapper,
@@ -10,7 +10,6 @@ import {
   ServicesIcon,
   ServicesH1,
   ServicesH2,
-  ServicesP,
 } from "./styleSheet";
 
 const Services = () => {
@@ -21,33 +20,21 @@ const Services = () => {
         <ServicesCard>
           <ServicesIcon src={icon1} />
           <ServicesH2>Reduce your expenses</ServicesH2>
-          <ServicesP>
-            With us reduce your banking fees and increase your overall savings.
-          </ServicesP>
         </ServicesCard>
 
         <ServicesCard>
           <ServicesIcon src={icon2} />
           <ServicesH2>Only a Single Tap Away</ServicesH2>
-          <ServicesP>
-            No waiting in the banks, we get to your door step within 48 hrs.
-          </ServicesP>
         </ServicesCard>
 
         <ServicesCard>
-          <ServicesIcon src={icon1} />
-          <ServicesH2>Reduce your expenses</ServicesH2>
-          <ServicesP>
-            With us reduce your banking fees and increase your overall savings.
-          </ServicesP>
+          <ServicesIcon src={icon4} />
+          <ServicesH2>24 hrs Banking Support</ServicesH2>
         </ServicesCard>
 
         <ServicesCard>
-          <ServicesIcon src={icon2} />
-          <ServicesH2>Only a Single Tap Away</ServicesH2>
-          <ServicesP>
-            No waiting in the banks, we get to your door step within 48 hrs.
-          </ServicesP>
+          <ServicesIcon src={icon3} />
+          <ServicesH2>Instant Loan</ServicesH2>
         </ServicesCard>
       </ServicesWrapper>
     </ServicesContainer>
