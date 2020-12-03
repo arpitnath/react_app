@@ -361,6 +361,7 @@ export const InfoRow = styled.div`
   @media screen and (max-width: 768px) {
     grid-template-areas: ${({ imgStart }) =>
       imgStart ? `'col1 col1' 'col2 col2'` : `'col1 col1' 'col2 col2'`};
+    margin-top: 164px;
   }
 `;
 export const Column1 = styled.div`
@@ -417,4 +418,99 @@ export const Img = styled.img`
   width: 100%;
   margin: 0 0 10px 0;
   padding-right: 0;
+`;
+
+/*
+    SERVICES COMPONENET
+*/
+
+export const ServicesContainer = styled.div`
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #010606;
+  margin-top: -100px;
+
+  @media screen and (max-width: 768px) {
+    height: 1100px;
+  }
+  @media screen and (max-width: 480px) {
+    height: 1300px;
+  }
+`;
+
+export const ServicesWrapper = styled.div`
+  max-width: 100px;
+  margin: 0;
+  margin-left: -50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr; //card layout
+  align-items: center;
+  grid-gap: 16px;
+  padding: 0 50px;
+
+  @media screen and (max-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media screen and (max-width: 480px) {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+`;
+export const ServicesCard = styled.div`
+  background: #efefef;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 310px;
+  border-radius: 10px;
+  max-height: 340px;
+  padding: 30px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.02);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 150%;
+    margin-left: -20px;
+  }
+`;
+
+export const ServicesIcon = styled.img`
+  height: 160px;
+  width: 160px;
+  margin-bottom: 10px;
+`;
+export const ServicesH1 = styled.h1`
+  font-size: 2.5rem;
+  color: #efefef;
+  margin-bottom: 64px;
+  margin-top: 60px;
+
+  @media screen and (max-width: 480px) {
+    font-size: 2rem;
+    margin-top: 250px;
+  }
+`;
+export const ServicesH2 = styled.h2`
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 10px;
+
+  @media screen and (max-width: 480px) {
+    text-align: left;
+  }
+`;
+export const ServicesP = styled.p`
+  font-size: 0.7rem;
+  text-align: left !important;
+  opacity: 0.5;
 `;

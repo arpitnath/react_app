@@ -38,7 +38,7 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  id: "about",
+  id: "own",
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
@@ -49,7 +49,7 @@ export const homeObjThree = {
   buttonLabel: "Get Started",
   imgStart: false,
   primary: true,
-  alt: "transaction",
+  alt: "credit card",
   dark: true,
   img: img3,
   darkText: false,
