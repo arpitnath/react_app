@@ -337,7 +337,7 @@ export const InfoContainer = styled.div`
   background: ${({ lightBg }) => (lightBg ? "#efefef" : "#010606")};
 
   @media screen and (max-width: 768px) {
-    padding: 100px 0;
+    padding: 0 0;
   }
 `;
 export const InfoWrapper = styled.div`
@@ -426,6 +426,8 @@ export const Img = styled.img`
 
 export const ServicesContainer = styled.div`
   height: 800px;
+  margin-left: auto;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -437,17 +439,18 @@ export const ServicesContainer = styled.div`
     height: 1100px;
   }
   @media screen and (max-width: 480px) {
-    height: 1300px;
+    height: 1600px;
   }
 `;
 
 export const ServicesWrapper = styled.div`
   max-width: 100px;
   margin: 0;
-  margin-left: -65%;
+
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr; //card layout
   align-items: center;
+  justify-content: center;
   grid-gap: 16px;
   padding: 0 50px;
 
@@ -457,15 +460,16 @@ export const ServicesWrapper = styled.div`
   @media screen and (max-width: 480px) {
     grid-template-columns: 1fr;
     padding: 20px;
-    margin-left: -50%;
+
+    margin-left: -50px;
   }
 `;
 export const ServicesCard = styled.div`
   background: #efefef;
 
   align-items: center;
-  height: 310px;
-  width: 290px;
+  height: 270px;
+  width: auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

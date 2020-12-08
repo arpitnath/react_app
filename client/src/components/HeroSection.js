@@ -27,10 +27,7 @@ const HeroSection = () => {
       </HeroBg>
       <HeroContent>
         <HeroH1>Internet Banking Made Easy</HeroH1>
-        <HeroP>
-          Sign up for a new account today and receive $100 in credit towards
-          your next payment
-        </HeroP>
+        <HeroP>Sign up for a new account today and receive $100</HeroP>
         <HeroBtnWrapper>
           <Button
             to="singup"
