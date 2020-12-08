@@ -571,17 +571,70 @@ export const FooterLinkItems = styled.div`
 
 export const FooterLinkTitle = styled.div`
   font-size: 14px;
+  font-weight: bold;
   margin-bottom: 16px;
 `;
 
 export const FooterLink = styled(LinkR)`
-  color: #fff;
+  color: #efefef;
   text-decoration: none;
   margin-bottom: 0.5rem;
-  font-size: 14px;
+  font-size: 12px;
 
   &:hover {
     color: #34d1bf;
     transition: 0.3s ease-out;
   }
+`;
+
+export const SocialMedia = styled.section`
+  max-width: 1000px;
+  width: 100%;
+`;
+
+export const SocialMediaWrap = styled.div`
+  justify-content: space-between;
+
+  padding: 48px 24px;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 820px) {
+    flex-direction: column;
+  }
+`;
+
+export const SocialLogo = styled(LinkR)`
+  color: #efefef;
+  justify-self: start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  font-weight: bold;
+`;
+
+export const WebsiteRights = styled.small`
+  color: #efefef;
+  margin-bottom: 16px;
+`;
+
+export const SocialIcons = styled.div`
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 10px;
+`;
+
+export const SocialIconLink = styled.a`
+  color: #efefef;
+  font-size: 24px;
+  padding: 10px;
 `;
