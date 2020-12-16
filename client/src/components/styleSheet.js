@@ -367,13 +367,15 @@ export const InfoRow = styled.div`
 `;
 export const Column1 = styled.div`
   margin-bottom: 15px;
-  margin-top: -100px;
+  margin-top: -20px;
+
   padding: 0 15px;
   grid-area: col1;
 `;
 
 export const Column2 = styled.div`
   margin-bottom: 15px;
+  margin-top: -40px;
   padding: 0 15px;
   grid-area: col2;
 `;
