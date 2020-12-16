@@ -367,6 +367,7 @@ export const InfoRow = styled.div`
 `;
 export const Column1 = styled.div`
   margin-bottom: 15px;
+  margin-top: -100px;
   padding: 0 15px;
   grid-area: col1;
 `;
