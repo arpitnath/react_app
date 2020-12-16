@@ -30,7 +30,7 @@ const HeroSection = () => {
         <HeroP>Sign up for a new account today and receive $100</HeroP>
         <HeroBtnWrapper>
           <Button
-            to="singup"
+            to="/signin"
             primary="false"
             dark="true"
             onMouseEnter={onHover}

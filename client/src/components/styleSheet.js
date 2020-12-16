@@ -307,7 +307,7 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
   font-size: 20px;
 `;
 
-export const Button = styled(LinkS)`
+export const Button = styled(LinkR)`
   border-radius: 50px;
   background: ${({ primary }) => (primary ? "#34D1BF" : "#070707")};
   white-space: nowrap;
@@ -321,6 +321,7 @@ export const Button = styled(LinkS)`
   justify-content: center;
   align-items: center;
   transition: all 0.2s ease-in-out;
+  text-decoration: none;
 
   &:hover {
     transition: all 0.2s ease-in-out;
