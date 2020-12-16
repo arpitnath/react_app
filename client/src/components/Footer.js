@@ -21,8 +21,13 @@ import {
   SocialIcons,
   SocialIconLink,
 } from "../components/styleSheet";
+import { animateScroll as scroll } from "react-scroll";
 
 const Footer = () => {
+  const toggleHome = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <FooterContainer>
       <FooterWrap>
@@ -68,7 +73,9 @@ const Footer = () => {
 
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to="/">Re-bank</SocialLogo>
+            <SocialLogo to="/" onClick={toggleHome}>
+              Re-bank
+            </SocialLogo>
             <WebsiteRights>
               Re-bank &#169; {new Date().getFullYear()} | All rights reserved.
             </WebsiteRights>
