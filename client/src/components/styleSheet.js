@@ -10,7 +10,7 @@ import { MdKeyboardArrowRight, MdArrowForward } from "react-icons/md";
 
 */
 export const Nav = styled.nav`
-  background: #070707;
+  background: ${({ scrollNav }) => (scrollNav ? "#070707" : "transparent")};
   height: 80px;
   margin-top: -80px;
   display: flex;

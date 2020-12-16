@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { FaBars } from "react-icons/fa";
 import {
   Nav,
@@ -12,9 +12,23 @@ import {
   NavBtnLink,
 } from "./styleSheet";
 const Navbar = ({ toggle }) => {
+  const [scrollNav, setscrollNav] = useState(true);
+
+  const changeNav = () => {
+    if (window.scrollY >= 80) {
+      setscrollNav(true);
+    } else {
+      setscrollNav(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", changeNav);
+  }, []);
+
   return (
     <>
-      <Nav>
+      <Nav scrollNav={scrollNav}>
         <NavbarContainer>
           <NavLogo to="/">Re-Bank</NavLogo>
 
